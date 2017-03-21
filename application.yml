@@ -1,0 +1,12 @@
+security:
+  oauth2:
+    client:
+      clientId: z7wMPj9jIDxBLYbMm0Gw
+      clientSecret: bvTQyD_t2XnM1oAwXHzHwPqYr55IJ4HrXO7o3kDD
+      accessTokenUri: https://dev-158606.oktapreview.com/oauth2/aus9uoq51sMXU0XbS0h7/v1/token
+      userAuthorizationUri: https://dev-158606.oktapreview.com/oauth2/aus9uoq51sMXU0XbS0h7/v1/authorize
+      clientAuthenticationScheme: form
+      scope: openid profile email
+    resource:
+      userInfoUri: https://dev-158606.oktapreview.com/oauth2/aus9uoq51sMXU0XbS0h7/v1/userinfo
+      preferTokenInfo: false
