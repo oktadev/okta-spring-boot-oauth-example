@@ -18,7 +18,7 @@ Please read [Get Started with Spring Boot, OAuth 2.0, and Okta](http://developer
 To install this example application, run the following commands:
 
 ```bash
-git clone git@github.com:oktadeveloper/okta-spring-boot-oauth-example.git
+git clone https://github.com/oktadeveloper/okta-spring-boot-oauth-example.git
 cd okta-spring-boot-oauth-example
 ```
 
