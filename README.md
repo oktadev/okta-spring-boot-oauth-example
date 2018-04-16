@@ -38,16 +38,13 @@ Log in to your Okta Developer account (or [sign up](https://developer.okta.com/s
 security:
   oauth2:
     client:
-      # From OIDC app
       clientId: {clientId}
       clientSecret: {clientSecret}
-      # From Authorization Server's metadata
       accessTokenUri: https://{yourOktaDomain}.com/oauth2/default/v1/token	
       userAuthorizationUri: https://{yourOktaDomain}.com/oauth2/default/v1/authorize 
-      clientAuthenticationScheme: form
       scope: openid profile email
     resource:
-      # from your Auth Server's metadata, check .well-known/openid-configuration if not in .well-known/oauth-authorization-server
+      # from your Auth Server's metadata at .well-known/openid-configuration
       userInfoUri: https://{yourOktaDomain}.com/oauth2/default/v1/userinfo
 ```
 
