@@ -22,10 +22,10 @@ git clone https://github.com/oktadeveloper/okta-spring-boot-oauth-example.git
 cd okta-spring-boot-oauth-example
 ```
 
-This will get a copy of the project installed locally. To install all of its dependencies and start the app, run:
+This will get a copy of the project installed locally. To run the example, [install Spring CLI](https://docs.spring.io/spring-boot/docs/current/reference/html/getting-started-installing-spring-boot.html#getting-started-installing-the-cli) and run the following command:
  
 ```bash
-./mvnw spring-boot:run
+spring run helloOAuth.groovy
 ```
 
 ### Create an OIDC App in Okta
