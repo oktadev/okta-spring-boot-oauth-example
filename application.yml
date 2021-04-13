@@ -1,10 +1,10 @@
 security:
   oauth2:
     client:
-      clientId: 0oad2f9lm1tDEZUCf0h7
-      clientSecret: G2Gh5INi8aVgtbI391ssmfLRcxu4vXHk1wa2I36V
-      accessTokenUri: https://dev-158606.oktapreview.com/oauth2/default/v1/token
-      userAuthorizationUri: https://dev-158606.oktapreview.com/oauth2/default/v1/authorize
+      clientId: <client-id>
+      clientSecret: <client-secret>
+      accessTokenUri: https://dev-133337.okta.com/oauth2/default/v1/token
+      userAuthorizationUri: https://dev-133337.okta.com/oauth2/default/v1/authorize
       scope: openid profile email
     resource:
-      userInfoUri: https://dev-158606.oktapreview.com/oauth2/default/v1/userinfo
+      userInfoUri: https://dev-133337.okta.com/oauth2/default/v1/userinfo
